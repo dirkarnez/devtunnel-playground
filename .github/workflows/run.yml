@@ -35,7 +35,7 @@ jobs:
           npm i -g concurrently
       
       - run: |
-          concurrently 'staticserver.exe --port=3000 --mode=spa' '.\devtunnel host -p 3000 --allow-anonymous --protocol https'
+          concurrently "staticserver.exe --port=3000 --mode=spa" "devtunnel.exe host -p 3000 --allow-anonymous --protocol https"
           
           
     # - run: |
