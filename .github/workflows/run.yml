@@ -23,7 +23,7 @@ jobs:
           .\devtunnel.exe user login -g -d
 
       - run: |
-          curl https://github.com/dirkarnez/staticserver/releases/download/v1.2.1/staticserver-v1.2.1.zip --o staticserver.zip &&^
+          curl https://github.com/dirkarnez/staticserver/releases/download/v1.2.1/staticserver-v1.2.1.zip -L -J --output staticserver.zip &&^
           7z.exe x staticserver.zip &&^
           dir
           
