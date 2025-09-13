@@ -14,3 +14,8 @@ devtunnel-playground
 ### Steps
 1. `.\devtunnel user login -g -d`
 2. `.\devtunnel host -p 3000 --allow-anonymous --protocol https`
+
+### Lost the URL
+1. `.\devtunnel user login -g -d`
+2. `.\devtunnel list`
+3. `https://${Tunnel ID}.devtunnels.ms:${ port }/`
