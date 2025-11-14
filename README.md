@@ -18,7 +18,7 @@ devtunnel-playground
 ### Lost the URL
 1. `.\devtunnel user login -g -d`
 2. `.\devtunnel list`
-3. `devtunnel  connect ${Tunnel ID}` (`https://${Tunnel ID}.devtunnels.ms:${ port }/`)
+3. `.\devtunnel  connect ${Tunnel ID}` (`https://${Tunnel ID}.devtunnels.ms:${ port }/`)
 
 ### Alternatives
 - [localtunnel/localtunnel: expose yourself](https://github.com/localtunnel/localtunnel)
